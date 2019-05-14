@@ -1,0 +1,122 @@
+
+
+/* COLORS */
+
+.bg-primary, .btn-primary {
+  background: #FD5 !important;
+  background: linear-gradient(175deg, #FE8 12%, #CA0) !important;
+  border: 1px solid #FD5 !important;
+  color: #454549;
+}
+
+.bg-secondary, .btn-secondary {
+  background: #DDE !important;
+  background: linear-gradient(175deg, #EEF 12%, #AAF) !important;
+  border: 1px solid #CCD !important;
+  color: #454549;
+}
+
+
+/* BTN */
+
+.btn {
+  border-radius: 2em !important;
+  box-shadow: 1px 1px 2px #454549 !important;
+  transition: none;
+}
+.btn:hover {
+  box-shadow: 2px 2px 3px #454549 !important;
+}
+.btn:active {
+  box-shadow: none !important ;
+  outline: none !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: 1px 1px 2px #454549;
+}
+
+/* FOOTER */
+.footer {
+  min-height: 6em;
+  width: 100%;
+  padding: 1em 3em;
+  margin: 0;
+  text-align: center;
+  background: #DDE !important;
+  background: linear-gradient(175deg, #EEF 12%, #CCD) !important;
+  color: #556;
+}
+
+
+/* FORMS */
+.mini-form {
+  max-width: 350px;
+  margin: auto;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 3px #CCC;
+  border-radius: 0.5em;
+}
+
+.form-group {
+  color: #445 !important;
+  font-size: 1.2em;
+}
+.form-group label {
+  text-align: right;
+  width: 100px;
+}
+.form-group input {
+  width: 150px;
+}
+
+input {
+  border-radius: 0 !important;
+  border: 0 !important;
+  /* border-bottom: 1px solid #99A !important; */
+  background-image: linear-gradient(to right, #AAA, #AAA);
+  background-position: 5px calc(100% - 0px);
+  background-size: calc(100% - 10px) 1px;
+  background-repeat: no-repeat;
+  margin: 0 1em;
+}
+input.rounded {
+  border-radius: 1.2em !important;
+}
+input:focus {
+  outline : none;
+}
+
+
+/* BANNER */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #FD5;
+  text-shadow: 2px 2px 2px #444;
+  font-weight: bolder;
+}
+.banner.fullscreen {
+  height: 100vh;
+}
+.banner.responsive {
+  padding: 7em;
+}
+.bg-audience {
+  background-image: url("../img/audience.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-concert {
+  background-image: url("../img/concert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
